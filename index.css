@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: lightgray;
+}
+
+h1 {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+    padding: 1ch 0;
+}
+
+.rows {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    max-width: 60ch;
+    margin: 0 auto;
+}
+
+.row {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+    background: white;
+    border: 1px solid #eee;
+    border-radius: 0.5rem;
+    padding: 1ch;
+    text-align: center;
+}
+
+.column {
+    padding: 0 0.5rem;
+}
+
+.headerRow {
+    font-weight: 700;
+    text-decoration: underline;
+    font-size: 18px;
+}
